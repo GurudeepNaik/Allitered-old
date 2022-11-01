@@ -1,0 +1,46 @@
+{
+  "name": "Alliterated",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "react": "17.0.2",
+    "react-native": "0.68.2",
+    "react-native-vector-icons": "^9.2.0",
+    "@react-native-async-storage/async-storage": "^1.17.7",
+    "@react-native-masked-view/masked-view": "^0.2.7",
+    "@react-navigation/native": "^6.0.11",
+    "@react-navigation/stack": "^6.2.2",
+    "react-native-gesture-handler": "^2.5.0",
+    "react-native-keyboard-aware-scroll-view": "^0.9.5",
+    "react-native-safe-area-context": "^4.3.1",
+    "react-native-screens": "^3.15.0",
+    "react-native-swiper-flatlist": "^3.0.17",
+    "react-persist": "^1.0.2",
+    "react-redux": "^7.2.6",
+    "redux": "^4.1.2",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^6.0.0",
+    "redux-promise-middleware": "^6.1.2",
+    "redux-thunk": "^2.4.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.19.6",
+    "@babel/runtime": "^7.19.4",
+    "@react-native-community/eslint-config": "^3.1.0",
+    "babel-jest": "^29.2.1",
+    "eslint": "^8.26.0",
+    "jest": "^29.2.1",
+    "metro-react-native-babel-preset": "^0.73.2",
+    "react-test-renderer": "17.0.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
