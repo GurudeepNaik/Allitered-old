@@ -33,16 +33,16 @@ const MainStackNavigator = props => {
           component={StartScreen}
           options={{ headerShown: false }}
         />
-        {/* <Stack.Screen
+        <Stack.Screen
           name="EditScreen"
           component={EditScreen}
           options={{ headerShown: false }}
-        /> */}
-        <Stack.Screen
+        />
+        {/* <Stack.Screen
           name="EditScreen"
           component={VerticalScroll}
           options={{ headerShown: false }}
-        />
+        /> */}
     </Stack.Navigator>
   )
 }

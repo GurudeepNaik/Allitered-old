@@ -267,22 +267,10 @@ const EditScreen = props => {
   return(
     <View style={styles.root}>
       <View style={{marginTop: 12}}>
-        <View style={{top: 0, left: 0, position: 'absolute', marginLeft: 24, alignItems:'center', justifyContent:'center'}}>
-          <TouchableOpacity onPress={()=>
-              onBackSavePrompt()
-            } 
-            style={{ flexDirection: 'row', alignItems:'center', justifyContent:'center' }}>
-            <Icon
-              onPress={() => 
-                onBackSavePrompt()
-              }
-              
-            />
-            <Text
-              style={styles.saveText}
-              onPress={() => {
-                onBackSavePrompt()
-              }}>save</Text>
+        <View style={{top: 0, left: 0, position: 'absolute', marginLeft: 24, alignItems:'center', justifyContent:"space-evenly" , "flexDirection":"row", "width":60}}>
+          <TouchableOpacity onPress={()=> onBackSavePrompt()}  style={{ flexDirection: 'row', alignItems:'center', justifyContent:'center' }}>
+          <Icon onPress={() =>  onBackSavePrompt()} name="arrow-back" size={20} color="#fff" style={styles.arrowright}/>
+            <Text style={styles.saveText} onPress={() => { onBackSavePrompt()}}>save</Text>
           </TouchableOpacity>
         </View>
         <View style={styles.pointsContainer}>

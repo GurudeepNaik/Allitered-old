@@ -33,11 +33,11 @@ const styles = StyleSheet.create({
     fontFamily: Fonts.fontFamily.regular,
     fontWeight: Fonts.weight.normal,
     fontSize: 36,
-    color: '#FFF',
+    color:"rgba(255, 255, 255, 0.92)",
     lineHeight: 43.2,
     letterSpacing: -0.3,
     textAlign: 'left',
-    width: '100%',
+    width: '100%'
   },
   buttonContainer: {
     flex: 0,
@@ -54,7 +54,7 @@ const styles = StyleSheet.create({
     fontFamily: Fonts.fontFamily.medium,
     fontSize: 36,
     fontWeight: Fonts.weight.bold,
-    color: '#000',
+    color: '#000000',
   },  
 });
 export default styles;

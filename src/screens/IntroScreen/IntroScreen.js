@@ -28,7 +28,7 @@ const IntroScreen = props => {
 						<Text style={styles.titleText}>
 							Alliterate
 						</Text>
-						<Text style={[styles.description, {fontWeight:'300'}]}>
+						<Text style={[styles.description, {fontWeight:'100'}]}>
 							{' (verb) '}
 						</Text>
 						<Text style={[styles.description, {fontFamily: Fonts.fontFamily.medium}]}>

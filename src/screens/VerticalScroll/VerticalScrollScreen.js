@@ -45,7 +45,19 @@ const VerticalScroll = props => {
     if ( item.type === 'daily' ) {
       let date = new Date(item.date).toDateString().split(' ');
       date.pop();
+      let num=date[date.length-1];
+      console.log(num);
       date = date.join(' ');
+      const nth = function(d) {
+        if (d > 3 && d < 21) return 'th';
+        switch (d % 10) {
+          case 1:  return "st";
+          case 2:  return "nd";
+          case 3:  return "rd";
+          default: return "th";
+        }
+      }
+      date=date+nth(parseInt(num));
 
       return (
         <View style={ styles.view }>

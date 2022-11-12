@@ -1,5 +1,4 @@
 export default class ActionType {
-
   static STARTED = 'STARTED';
   static USERLEVEL = 'USERLEVEL';
   static USERPOINTS = 'USERPOINTS';
